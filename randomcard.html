@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juego de Cartas</title>
+  <link rel="stylesheet" href="randomcard.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Verdad, Reto o Yo Nunca</h1>
+    <button class="exit" onclick="window.location.href='crear_sala.html'" color="red">SALIR</button>
+    <div class="card">
+      <div class="card-content">
+        <p id="question">Pulsa una opción para empezar</p>
+      </div>
+      <div class="options">
+        <button onclick="showRandom('truth')">Verdad</button>
+        <button onclick="showRandom('dare')">Reto</button>
+        <button onclick="showRandom('never')">Yo Nunca</button>
+      </div>
+      <button class="next-btn" onclick="nextCard()">Siguiente carta 🔄</button>
+    </div>
+  </div>
+
+  <script src="randomcard.js"></script>
+</body>
+</html>
