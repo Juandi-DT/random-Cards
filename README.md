@@ -1,7 +1,7 @@
 # Verdad, Reto o Yo Nunca — Cartas Aleatorias
 
 Un juego web simple y responsivo de **cartas aleatorias** con tres categorías: **Verdad**, **Reto** y **Yo Nunca**. Escribe tu nombre, elige una opción y deja que el destino (y el buen humor) haga el resto.
-
+el link de la pagina :https://juandi-dt.github.io/random-Cards/
 
 ---
 
